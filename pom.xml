@@ -59,4 +59,22 @@
         </dependency>
     </dependencies>
 
+
+    <repositories>
+        <repository>
+            <id>central</id>
+            <name>Maven Central</name>
+            <url>https://repo1.maven.org/maven2</url>
+        </repository>
+        <repository>
+            <id>central1</id>
+            <name>Central Repo</name>
+            <url>https://repo.maven.apache.org/maven2</url>
+        </repository>
+        <repository>
+            <id>jboss.community</id>
+            <name>JBoss Community Repo</name>
+            <url>https://repository.jboss.org/nexus/content/repositories/public/</url>
+        </repository>
+    </repositories>
 </project>
